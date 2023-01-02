@@ -16,8 +16,12 @@ export default function Logout() {
       navigate("/login");
     }
   };
+  function logoff(){
+    alert("You will be logged out after selecting ok" )
+    handleClick()
+  }
   return (
-    <Button onClick={handleClick}>
+    <Button onClick={logoff}>
       <BiPowerOff />
     </Button>
   );
