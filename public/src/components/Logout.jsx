@@ -38,6 +38,6 @@ const Button = styled.button`
   cursor: pointer;
   svg {
     font-size: 1.3rem;
-    color: #ebe7ff;
+    color: #FF0000;
   }
 `;
